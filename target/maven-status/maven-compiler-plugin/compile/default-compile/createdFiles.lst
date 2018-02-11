@@ -1,0 +1,4 @@
+childrensgame\service\ChildService.class
+childrensgame\model\Child.class
+childrensgame\ChildrensGame.class
+childrensgame\service\impl\ChildServiceImpl.class
