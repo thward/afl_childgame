@@ -16,7 +16,7 @@ public class ChildServiceImpl implements ChildService {
 
 	private ArrayList<Child> children;
 
-	@Override
+	
 	public Integer getWinner(Integer numberOfChildren, Integer eliminationRange) {
 
 		if (numberOfChildren < 2) {
@@ -93,8 +93,7 @@ public class ChildServiceImpl implements ChildService {
 	}
 
 	/**
-	 * Given the number of children in the circle and elimination range, remove
-	 * the losing children
+	 * Find the remaining child
 	 * 
 	 * @returns Integer sequential id of winning child
 	 * 
